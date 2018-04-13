@@ -18,5 +18,10 @@ public class Employee {
     public String getName() {
         return name;
     }
-
+    
+    public boolean equals(Employee otherone) {
+        if (otherone.getName().equals(this.name) && otherone.getHireDate().equals(this.hireDate))
+            return true;
+        return false;
+    }
 }
