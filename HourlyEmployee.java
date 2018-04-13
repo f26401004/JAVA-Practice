@@ -7,4 +7,7 @@ public class HourlyEmployee extends Employee {
         hireDate = theDate;
         wageRate = rate;
     }
+    public String getName() {
+        return "Hourly Employee:" + name;
+    }
 }
